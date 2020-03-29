@@ -1,0 +1,291 @@
+[Fri Mar 27 13:02:02.727924 2020] [core:notice] [pid 1497] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Fri Mar 27 13:02:02.734488 2020] [suexec:notice] [pid 1497] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 27 13:02:02.756323 2020] [lbmethod_heartbeat:notice] [pid 1497] AH02282: No slotmem from mod_heartmonitor
+[Fri Mar 27 13:02:02.767271 2020] [mpm_prefork:notice] [pid 1497] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Fri Mar 27 13:02:02.767317 2020] [core:notice] [pid 1497] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 27 13:02:15.048543 2020] [autoindex:error] [pid 1498] [client 144.48.142.222:48164] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Mar 27 13:13:36.065696 2020] [mpm_prefork:notice] [pid 1497] AH00170: caught SIGWINCH, shutting down gracefully
+[Fri Mar 27 13:14:03.741549 2020] [core:notice] [pid 908] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Fri Mar 27 13:14:03.775853 2020] [suexec:notice] [pid 908] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 27 13:14:03.853829 2020] [lbmethod_heartbeat:notice] [pid 908] AH02282: No slotmem from mod_heartmonitor
+[Fri Mar 27 13:14:03.897987 2020] [mpm_prefork:notice] [pid 908] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Fri Mar 27 13:14:03.898055 2020] [core:notice] [pid 908] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 27 13:19:51.947496 2020] [mpm_prefork:notice] [pid 908] AH00171: Graceful restart requested, doing restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 27 13:19:52.010442 2020] [lbmethod_heartbeat:notice] [pid 908] AH02282: No slotmem from mod_heartmonitor
+[Fri Mar 27 13:19:52.010569 2020] [mpm_prefork:notice] [pid 908] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Fri Mar 27 13:19:52.010583 2020] [core:notice] [pid 908] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 27 13:20:33.900047 2020] [mpm_prefork:notice] [pid 908] AH00171: Graceful restart requested, doing restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 27 13:20:33.958377 2020] [lbmethod_heartbeat:notice] [pid 908] AH02282: No slotmem from mod_heartmonitor
+[Fri Mar 27 13:20:33.958480 2020] [mpm_prefork:notice] [pid 908] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Fri Mar 27 13:20:33.958491 2020] [core:notice] [pid 908] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 27 13:21:25.135620 2020] [mpm_prefork:notice] [pid 908] AH00171: Graceful restart requested, doing restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 27 13:21:25.191869 2020] [lbmethod_heartbeat:notice] [pid 908] AH02282: No slotmem from mod_heartmonitor
+[Fri Mar 27 13:21:25.191968 2020] [mpm_prefork:notice] [pid 908] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Fri Mar 27 13:21:25.191979 2020] [core:notice] [pid 908] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 27 13:21:30.493739 2020] [core:error] [pid 6083] (13)Permission denied: [client 52.15.254.228:13392] AH00035: access to /.well-known/acme-challenge/wHwrklAup6Yu9C_W8foVB05k7NwnY_ErBW09i7OO_d8 denied (filesystem path '/home/.acme/wHwrklAup6Yu9C_W8foVB05k7NwnY_ErBW09i7OO_d8') because search permissions are missing on a component of the path
+[Fri Mar 27 13:21:30.538889 2020] [core:error] [pid 6084] (13)Permission denied: [client 52.28.236.88:53298] AH00035: access to /.well-known/acme-challenge/wHwrklAup6Yu9C_W8foVB05k7NwnY_ErBW09i7OO_d8 denied (filesystem path '/home/.acme/wHwrklAup6Yu9C_W8foVB05k7NwnY_ErBW09i7OO_d8') because search permissions are missing on a component of the path
+[Fri Mar 27 13:21:30.563755 2020] [core:error] [pid 6086] (13)Permission denied: [client 34.209.232.166:40502] AH00035: access to /.well-known/acme-challenge/wHwrklAup6Yu9C_W8foVB05k7NwnY_ErBW09i7OO_d8 denied (filesystem path '/home/.acme/wHwrklAup6Yu9C_W8foVB05k7NwnY_ErBW09i7OO_d8') because search permissions are missing on a component of the path
+[Fri Mar 27 13:21:30.583397 2020] [core:error] [pid 6087] (13)Permission denied: [client 66.133.109.36:52412] AH00035: access to /.well-known/acme-challenge/wHwrklAup6Yu9C_W8foVB05k7NwnY_ErBW09i7OO_d8 denied (filesystem path '/home/.acme/wHwrklAup6Yu9C_W8foVB05k7NwnY_ErBW09i7OO_d8') because search permissions are missing on a component of the path
+[Fri Mar 27 13:21:50.893954 2020] [mpm_prefork:notice] [pid 908] AH00171: Graceful restart requested, doing restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 27 13:21:50.954807 2020] [lbmethod_heartbeat:notice] [pid 908] AH02282: No slotmem from mod_heartmonitor
+[Fri Mar 27 13:21:50.954905 2020] [mpm_prefork:notice] [pid 908] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Fri Mar 27 13:21:50.954916 2020] [core:notice] [pid 908] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 27 13:21:55.764941 2020] [core:error] [pid 7087] (13)Permission denied: [client 66.133.109.36:41174] AH00035: access to /.well-known/acme-challenge/DCaZUNP3WcwB9Y1TQ_S3zCE61PtnI4Jzrp9IrU3Fmz8 denied (filesystem path '/home/.acme/DCaZUNP3WcwB9Y1TQ_S3zCE61PtnI4Jzrp9IrU3Fmz8') because search permissions are missing on a component of the path
+[Fri Mar 27 13:21:58.630629 2020] [core:error] [pid 7088] (13)Permission denied: [client 45.88.40.168:53102] AH00035: access to /.well-known/acme-challenge/DCaZUNP3WcwB9Y1TQ_S3zCE61PtnI4Jzrp9IrU3Fmz8 denied (filesystem path '/home/.acme/DCaZUNP3WcwB9Y1TQ_S3zCE61PtnI4Jzrp9IrU3Fmz8') because search permissions are missing on a component of the path
+[Fri Mar 27 13:22:38.457353 2020] [core:error] [pid 7089] (13)Permission denied: [client 144.48.142.222:48976] AH00035: access to /.well-known/acme-challenge/DCaZUNP3WcwB9Y1TQ_S3zCE61PtnI4Jzrp9IrU3Fmz8 denied (filesystem path '/home/.acme/DCaZUNP3WcwB9Y1TQ_S3zCE61PtnI4Jzrp9IrU3Fmz8') because search permissions are missing on a component of the path
+[Fri Mar 27 13:22:54.237775 2020] [core:error] [pid 7091] (13)Permission denied: [client 144.48.142.222:48992] AH00035: access to /.well-known/acme-challenge/DCaZUNP3WcwB9Y1TQ_S3zCE61PtnI4Jzrp9IrU3Fmz8 denied (filesystem path '/home/.acme/DCaZUNP3WcwB9Y1TQ_S3zCE61PtnI4Jzrp9IrU3Fmz8') because search permissions are missing on a component of the path
+[Fri Mar 27 15:14:30.920381 2020] [autoindex:error] [pid 7088] [client 185.173.35.33:37282] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Mar 27 15:37:05.651526 2020] [autoindex:error] [pid 7089] [client 45.227.255.233:61000] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Mar 27 15:59:38.995803 2020] [autoindex:error] [pid 7087] [client 111.7.100.20:26217] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Mar 27 16:09:06.103452 2020] [autoindex:error] [pid 7090] [client 171.67.70.85:53146] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Mar 27 16:18:15.375054 2020] [autoindex:error] [pid 7088] [client 80.82.68.16:57550] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Mar 27 16:24:46.017170 2020] [autoindex:error] [pid 7931] [client 5.101.0.209:53724] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Mar 27 16:24:48.069966 2020] [autoindex:error] [pid 7091] [client 5.101.0.209:36280] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Mar 27 16:53:23.055357 2020] [autoindex:error] [pid 7088] [client 5.40.81.31:56790] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Mar 27 19:39:59.600767 2020] [autoindex:error] [pid 7090] [client 222.135.125.13:13594] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Mar 27 19:52:24.830943 2020] [autoindex:error] [pid 7089] [client 190.94.136.114:36686] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Mar 27 22:09:22.087384 2020] [autoindex:error] [pid 7091] [client 171.67.70.85:38856] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Mar 27 22:32:46.699398 2020] [mpm_prefork:notice] [pid 908] AH00171: Graceful restart requested, doing restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 27 22:32:46.773667 2020] [lbmethod_heartbeat:notice] [pid 908] AH02282: No slotmem from mod_heartmonitor
+[Fri Mar 27 22:32:46.773768 2020] [mpm_prefork:notice] [pid 908] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Fri Mar 27 22:32:46.773775 2020] [core:notice] [pid 908] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 27 22:33:07.992484 2020] [mpm_prefork:notice] [pid 908] AH00171: Graceful restart requested, doing restart
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 27 22:33:08.127063 2020] [lbmethod_heartbeat:notice] [pid 908] AH02282: No slotmem from mod_heartmonitor
+[Fri Mar 27 22:33:08.127180 2020] [mpm_prefork:notice] [pid 908] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Fri Mar 27 22:33:08.127193 2020] [core:notice] [pid 908] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 27 22:33:12.885137 2020] [core:error] [pid 23704] (13)Permission denied: [client 34.209.232.166:50230] AH00035: access to /.well-known/acme-challenge/TL5xrCKrSg0naMbmfEEzZzR4_ddFkwzfsoJRB4PIi6M denied (filesystem path '/home/.acme/TL5xrCKrSg0naMbmfEEzZzR4_ddFkwzfsoJRB4PIi6M') because search permissions are missing on a component of the path
+[Fri Mar 27 22:33:12.898660 2020] [core:error] [pid 23705] (13)Permission denied: [client 64.78.149.164:60862] AH00035: access to /.well-known/acme-challenge/TL5xrCKrSg0naMbmfEEzZzR4_ddFkwzfsoJRB4PIi6M denied (filesystem path '/home/.acme/TL5xrCKrSg0naMbmfEEzZzR4_ddFkwzfsoJRB4PIi6M') because search permissions are missing on a component of the path
+[Fri Mar 27 22:33:12.918648 2020] [core:error] [pid 23706] (13)Permission denied: [client 52.15.254.228:59110] AH00035: access to /.well-known/acme-challenge/TL5xrCKrSg0naMbmfEEzZzR4_ddFkwzfsoJRB4PIi6M denied (filesystem path '/home/.acme/TL5xrCKrSg0naMbmfEEzZzR4_ddFkwzfsoJRB4PIi6M') because search permissions are missing on a component of the path
+[Fri Mar 27 22:33:13.017398 2020] [core:error] [pid 23707] (13)Permission denied: [client 18.194.58.132:64918] AH00035: access to /.well-known/acme-challenge/TL5xrCKrSg0naMbmfEEzZzR4_ddFkwzfsoJRB4PIi6M denied (filesystem path '/home/.acme/TL5xrCKrSg0naMbmfEEzZzR4_ddFkwzfsoJRB4PIi6M') because search permissions are missing on a component of the path
+[Fri Mar 27 22:34:40.537926 2020] [core:error] [pid 23708] (13)Permission denied: [client 144.48.142.222:57458] AH00035: access to /.well-known/acme-challenge/TL5xrCKrSg0naMbmfEEzZzR4_ddFkwzfsoJRB4PIi6M denied (filesystem path '/home/.acme/TL5xrCKrSg0naMbmfEEzZzR4_ddFkwzfsoJRB4PIi6M') because search permissions are missing on a component of the path
+[Fri Mar 27 23:25:19.511391 2020] [mpm_prefork:notice] [pid 908] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Mar 28 00:58:42.076354 2020] [core:notice] [pid 25834] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sat Mar 28 00:58:42.078282 2020] [suexec:notice] [pid 25834] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sat Mar 28 00:58:42.104326 2020] [alias:warn] [pid 25834] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 362 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sat Mar 28 00:58:42.106408 2020] [lbmethod_heartbeat:notice] [pid 25834] AH02282: No slotmem from mod_heartmonitor
+[Sat Mar 28 00:58:42.139002 2020] [mpm_prefork:notice] [pid 25834] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Sat Mar 28 00:58:42.139062 2020] [core:notice] [pid 25834] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sat Mar 28 00:59:41.439723 2020] [mpm_prefork:notice] [pid 25834] AH00171: Graceful restart requested, doing restart
+[Sat Mar 28 00:59:41.751926 2020] [alias:warn] [pid 25834] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 362 will probably never match because it overlaps an earlier Alias.
+[Sat Mar 28 00:59:41.751979 2020] [alias:warn] [pid 25834] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 369 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sat Mar 28 00:59:41.772792 2020] [lbmethod_heartbeat:notice] [pid 25834] AH02282: No slotmem from mod_heartmonitor
+[Sat Mar 28 00:59:41.772967 2020] [mpm_prefork:notice] [pid 25834] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Sat Mar 28 00:59:41.772980 2020] [core:notice] [pid 25834] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sat Mar 28 00:59:47.438278 2020] [core:error] [pid 26135] (13)Permission denied: [client 34.222.229.130:20732] AH00035: access to /.well-known/acme-challenge/cnVmU9DbY4RdNqjyRJr76O_UF7bv1g1u_sXyQGMQPX4 denied (filesystem path '/home/.acme/cnVmU9DbY4RdNqjyRJr76O_UF7bv1g1u_sXyQGMQPX4') because search permissions are missing on a component of the path
+[Sat Mar 28 00:59:47.439125 2020] [core:error] [pid 26136] (13)Permission denied: [client 52.15.254.228:31842] AH00035: access to /.well-known/acme-challenge/cnVmU9DbY4RdNqjyRJr76O_UF7bv1g1u_sXyQGMQPX4 denied (filesystem path '/home/.acme/cnVmU9DbY4RdNqjyRJr76O_UF7bv1g1u_sXyQGMQPX4') because search permissions are missing on a component of the path
+[Sat Mar 28 00:59:47.664024 2020] [core:error] [pid 26138] (13)Permission denied: [client 66.133.109.36:17578] AH00035: access to /.well-known/acme-challenge/cnVmU9DbY4RdNqjyRJr76O_UF7bv1g1u_sXyQGMQPX4 denied (filesystem path '/home/.acme/cnVmU9DbY4RdNqjyRJr76O_UF7bv1g1u_sXyQGMQPX4') because search permissions are missing on a component of the path
+[Sat Mar 28 01:00:00.810570 2020] [mpm_prefork:notice] [pid 25834] AH00171: Graceful restart requested, doing restart
+[Sat Mar 28 01:00:00.868189 2020] [alias:warn] [pid 25834] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 362 will probably never match because it overlaps an earlier Alias.
+[Sat Mar 28 01:00:00.868225 2020] [alias:warn] [pid 25834] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 369 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sat Mar 28 01:00:00.869995 2020] [lbmethod_heartbeat:notice] [pid 25834] AH02282: No slotmem from mod_heartmonitor
+[Sat Mar 28 01:00:00.870094 2020] [mpm_prefork:notice] [pid 25834] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Sat Mar 28 01:00:00.870104 2020] [core:notice] [pid 25834] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sat Mar 28 01:00:08.016108 2020] [core:error] [pid 27109] (13)Permission denied: [client 34.222.229.130:24478] AH00035: access to /.well-known/acme-challenge/b_RfJsBjK4BS0Lyd7Of42cWHRnTH__zasl2IcIGrCPU denied (filesystem path '/home/.acme/b_RfJsBjK4BS0Lyd7Of42cWHRnTH__zasl2IcIGrCPU') because search permissions are missing on a component of the path
+[Sat Mar 28 01:00:08.039107 2020] [core:error] [pid 27110] (13)Permission denied: [client 3.14.255.131:33498] AH00035: access to /.well-known/acme-challenge/b_RfJsBjK4BS0Lyd7Of42cWHRnTH__zasl2IcIGrCPU denied (filesystem path '/home/.acme/b_RfJsBjK4BS0Lyd7Of42cWHRnTH__zasl2IcIGrCPU') because search permissions are missing on a component of the path
+[Sat Mar 28 01:00:08.131145 2020] [core:error] [pid 27110] (13)Permission denied: [client 18.194.58.132:58334] AH00035: access to /.well-known/acme-challenge/b_RfJsBjK4BS0Lyd7Of42cWHRnTH__zasl2IcIGrCPU denied (filesystem path '/home/.acme/b_RfJsBjK4BS0Lyd7Of42cWHRnTH__zasl2IcIGrCPU') because search permissions are missing on a component of the path
+[Sat Mar 28 01:00:09.641628 2020] [core:error] [pid 27113] (13)Permission denied: [client 66.133.109.36:55780] AH00035: access to /.well-known/acme-challenge/b_RfJsBjK4BS0Lyd7Of42cWHRnTH__zasl2IcIGrCPU denied (filesystem path '/home/.acme/b_RfJsBjK4BS0Lyd7Of42cWHRnTH__zasl2IcIGrCPU') because search permissions are missing on a component of the path
+[Sat Mar 28 01:01:38.968652 2020] [core:error] [pid 27111] (13)Permission denied: [client 144.48.142.222:60944] AH00035: access to /.well-known/acme-challenge/b_RfJsBjK4BS0Lyd7Of42cWHRnTH__zasl2IcIGrCPU denied (filesystem path '/home/.acme/b_RfJsBjK4BS0Lyd7Of42cWHRnTH__zasl2IcIGrCPU') because search permissions are missing on a component of the path
+[Sat Mar 28 01:45:49.445972 2020] [autoindex:error] [pid 27109] [client 39.104.189.125:34500] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 03:28:44.852094 2020] [autoindex:error] [pid 27112] [client 54.90.236.19:46516] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 04:14:27.289105 2020] [autoindex:error] [pid 27109] [client 171.67.70.85:40970] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 06:14:43.680423 2020] [autoindex:error] [pid 27110] [client 93.63.162.100:34113] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 06:32:54.045106 2020] [autoindex:error] [pid 27113] [client 90.229.241.137:52734] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 06:51:16.238932 2020] [autoindex:error] [pid 27880] [client 70.45.15.216:40455] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 06:51:59.954697 2020] [autoindex:error] [pid 27111] [client 93.63.162.100:63553] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 07:16:52.079637 2020] [autoindex:error] [pid 27109] [client 2.179.221.235:39672] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 07:21:06.382365 2020] [autoindex:error] [pid 27112] [client 172.245.38.148:58658] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 07:34:55.628400 2020] [autoindex:error] [pid 27110] [client 93.63.162.100:62081] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 08:50:23.656046 2020] [autoindex:error] [pid 27880] [client 42.236.10.117:37714] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive, referer: http://baidu.com/
+[Sat Mar 28 08:50:31.667035 2020] [autoindex:error] [pid 27112] [client 42.236.10.75:48990] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive, referer: http://baidu.com/
+[Sat Mar 28 09:37:35.222235 2020] [autoindex:error] [pid 947] [client 93.63.162.100:8673] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 10:02:06.350961 2020] [autoindex:error] [pid 27880] [client 171.67.70.85:47888] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 10:03:24.008648 2020] [autoindex:error] [pid 27111] [client 113.161.4.51:42453] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 10:31:28.439998 2020] [autoindex:error] [pid 27113] [client 52.13.15.179:55484] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 11:09:39.128329 2020] [autoindex:error] [pid 27110] [client 61.129.7.235:65385] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 11:21:15.131903 2020] [autoindex:error] [pid 27112] [client 58.246.221.61:64596] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 11:21:28.613214 2020] [autoindex:error] [pid 3308] [client 101.89.239.216:63240] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 11:28:10.114243 2020] [autoindex:error] [pid 27880] [client 144.48.142.222:57954] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 11:28:54.966112 2020] [autoindex:error] [pid 947] [client 144.48.142.222:58010] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Mar 28 11:35:33.970285 2020] [mpm_prefork:notice] [pid 25834] AH00171: Graceful restart requested, doing restart
+[Sat Mar 28 11:35:34.095057 2020] [alias:warn] [pid 25834] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 362 will probably never match because it overlaps an earlier Alias.
+[Sat Mar 28 11:35:34.095103 2020] [alias:warn] [pid 25834] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 369 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sat Mar 28 11:35:34.097536 2020] [lbmethod_heartbeat:notice] [pid 25834] AH02282: No slotmem from mod_heartmonitor
+[Sat Mar 28 11:35:34.097651 2020] [mpm_prefork:notice] [pid 25834] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Sat Mar 28 11:35:34.097661 2020] [core:notice] [pid 25834] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sat Mar 28 11:35:39.269752 2020] [core:error] [pid 4890] (13)Permission denied: [client 34.222.229.130:57526] AH00035: access to /.well-known/acme-challenge/74-ZmgXRZMPARva0jJPAvaF0PEXNmCumI9lrN_BghlM denied (filesystem path '/home/.acme/74-ZmgXRZMPARva0jJPAvaF0PEXNmCumI9lrN_BghlM') because search permissions are missing on a component of the path
+[Sat Mar 28 11:35:39.342221 2020] [core:error] [pid 4892] (13)Permission denied: [client 3.14.255.131:14836] AH00035: access to /.well-known/acme-challenge/74-ZmgXRZMPARva0jJPAvaF0PEXNmCumI9lrN_BghlM denied (filesystem path '/home/.acme/74-ZmgXRZMPARva0jJPAvaF0PEXNmCumI9lrN_BghlM') because search permissions are missing on a component of the path
+[Sat Mar 28 11:35:39.358154 2020] [core:error] [pid 4893] (13)Permission denied: [client 66.133.109.36:33112] AH00035: access to /.well-known/acme-challenge/74-ZmgXRZMPARva0jJPAvaF0PEXNmCumI9lrN_BghlM denied (filesystem path '/home/.acme/74-ZmgXRZMPARva0jJPAvaF0PEXNmCumI9lrN_BghlM') because search permissions are missing on a component of the path
+[Sat Mar 28 11:35:39.382929 2020] [core:error] [pid 4891] (13)Permission denied: [client 18.194.58.132:65414] AH00035: access to /.well-known/acme-challenge/74-ZmgXRZMPARva0jJPAvaF0PEXNmCumI9lrN_BghlM denied (filesystem path '/home/.acme/74-ZmgXRZMPARva0jJPAvaF0PEXNmCumI9lrN_BghlM') because search permissions are missing on a component of the path
+[Sat Mar 28 11:38:30.781499 2020] [mpm_prefork:notice] [pid 25834] AH00171: Graceful restart requested, doing restart
+[Sat Mar 28 11:38:30.844505 2020] [alias:warn] [pid 25834] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 362 will probably never match because it overlaps an earlier Alias.
+[Sat Mar 28 11:38:30.844544 2020] [alias:warn] [pid 25834] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 369 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sat Mar 28 11:38:30.846317 2020] [lbmethod_heartbeat:notice] [pid 25834] AH02282: No slotmem from mod_heartmonitor
+[Sat Mar 28 11:38:30.846409 2020] [mpm_prefork:notice] [pid 25834] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Sat Mar 28 11:38:30.846419 2020] [core:notice] [pid 25834] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sat Mar 28 11:38:35.552857 2020] [core:error] [pid 6005] (13)Permission denied: [client 34.209.232.166:61036] AH00035: access to /.well-known/acme-challenge/VR97bl5mngttg_X6oeOfsArZIYhvVrj-a_tuBKQ2Fac denied (filesystem path '/home/.acme/VR97bl5mngttg_X6oeOfsArZIYhvVrj-a_tuBKQ2Fac') because search permissions are missing on a component of the path
+[Sat Mar 28 11:38:35.583634 2020] [core:error] [pid 6006] (13)Permission denied: [client 52.15.254.228:27732] AH00035: access to /.well-known/acme-challenge/VR97bl5mngttg_X6oeOfsArZIYhvVrj-a_tuBKQ2Fac denied (filesystem path '/home/.acme/VR97bl5mngttg_X6oeOfsArZIYhvVrj-a_tuBKQ2Fac') because search permissions are missing on a component of the path
+[Sat Mar 28 11:38:35.662936 2020] [core:error] [pid 6006] (13)Permission denied: [client 64.78.149.164:15694] AH00035: access to /.well-known/acme-challenge/VR97bl5mngttg_X6oeOfsArZIYhvVrj-a_tuBKQ2Fac denied (filesystem path '/home/.acme/VR97bl5mngttg_X6oeOfsArZIYhvVrj-a_tuBKQ2Fac') because search permissions are missing on a component of the path
+[Sat Mar 28 11:38:35.756046 2020] [core:error] [pid 6009] (13)Permission denied: [client 52.28.236.88:10764] AH00035: access to /.well-known/acme-challenge/VR97bl5mngttg_X6oeOfsArZIYhvVrj-a_tuBKQ2Fac denied (filesystem path '/home/.acme/VR97bl5mngttg_X6oeOfsArZIYhvVrj-a_tuBKQ2Fac') because search permissions are missing on a component of the path
+[Sat Mar 28 11:42:01.045470 2020] [mpm_prefork:notice] [pid 25834] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Mar 28 11:49:34.511193 2020] [core:notice] [pid 9439] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sat Mar 28 11:49:34.513139 2020] [suexec:notice] [pid 9439] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sat Mar 28 11:49:34.556693 2020] [alias:warn] [pid 9439] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 362 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sat Mar 28 11:49:34.564477 2020] [lbmethod_heartbeat:notice] [pid 9439] AH02282: No slotmem from mod_heartmonitor
+[Sat Mar 28 11:49:34.584002 2020] [mpm_prefork:notice] [pid 9439] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Sat Mar 28 11:49:34.584060 2020] [core:notice] [pid 9439] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sun Mar 29 01:41:19.434674 2020] [mpm_prefork:notice] [pid 9439] AH00170: caught SIGWINCH, shutting down gracefully
+[Sun Mar 29 01:41:20.780620 2020] [core:notice] [pid 26380] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Mar 29 01:41:20.791681 2020] [suexec:notice] [pid 26380] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun Mar 29 01:41:20.845430 2020] [alias:warn] [pid 26380] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 376 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 29 01:41:20.847416 2020] [lbmethod_heartbeat:notice] [pid 26380] AH02282: No slotmem from mod_heartmonitor
+[Sun Mar 29 01:41:20.869881 2020] [mpm_prefork:notice] [pid 26380] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Sun Mar 29 01:41:20.869962 2020] [core:notice] [pid 26380] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sun Mar 29 02:11:51.792594 2020] [mpm_prefork:notice] [pid 26380] AH00170: caught SIGWINCH, shutting down gracefully
+[Sun Mar 29 02:22:26.233816 2020] [core:notice] [pid 28599] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Mar 29 02:22:26.236336 2020] [suexec:notice] [pid 28599] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun Mar 29 02:22:26.315830 2020] [alias:warn] [pid 28599] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 378 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 29 02:22:26.336946 2020] [lbmethod_heartbeat:notice] [pid 28599] AH02282: No slotmem from mod_heartmonitor
+[Sun Mar 29 02:22:26.428402 2020] [mpm_prefork:notice] [pid 28599] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Sun Mar 29 02:22:26.428473 2020] [core:notice] [pid 28599] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sun Mar 29 02:27:01.700836 2020] [mpm_prefork:notice] [pid 28599] AH00170: caught SIGWINCH, shutting down gracefully
+[Sun Mar 29 02:27:03.052326 2020] [core:notice] [pid 28758] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Mar 29 02:27:03.061798 2020] [suexec:notice] [pid 28758] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun Mar 29 02:27:03.182027 2020] [so:warn] [pid 28758] AH01574: module ssl_module is already loaded, skipping
+[Sun Mar 29 02:27:03.226068 2020] [alias:warn] [pid 28758] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 379 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 29 02:27:03.226683 2020] [core:crit] [pid 28758] (22)Invalid argument: AH00069: make_sock: for address [::]:443, apr_socket_opt_set: (IPV6_V6ONLY)
+(98)Address already in use: AH00072: make_sock: could not bind to address [::]:443
+(98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:443
+[Sun Mar 29 02:27:03.226800 2020] [mpm_prefork:alert] [pid 28758] no listening sockets available, shutting down
+[Sun Mar 29 02:27:03.226811 2020] [:emerg] [pid 28758] AH00019: Unable to open logs, exiting
+[Sun Mar 29 02:29:26.592865 2020] [core:notice] [pid 28834] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Mar 29 02:29:26.594613 2020] [suexec:notice] [pid 28834] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun Mar 29 02:29:26.670972 2020] [so:warn] [pid 28834] AH01574: module ssl_module is already loaded, skipping
+[Sun Mar 29 02:29:26.685496 2020] [alias:warn] [pid 28834] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 379 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 29 02:29:26.686144 2020] [core:crit] [pid 28834] (22)Invalid argument: AH00069: make_sock: for address [::]:443, apr_socket_opt_set: (IPV6_V6ONLY)
+(98)Address already in use: AH00072: make_sock: could not bind to address [::]:443
+(98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:443
+[Sun Mar 29 02:29:26.686226 2020] [mpm_prefork:alert] [pid 28834] no listening sockets available, shutting down
+[Sun Mar 29 02:29:26.686240 2020] [:emerg] [pid 28834] AH00019: Unable to open logs, exiting
+[Sun Mar 29 02:30:04.986225 2020] [core:notice] [pid 28864] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Mar 29 02:30:04.987933 2020] [suexec:notice] [pid 28864] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun Mar 29 02:30:05.079071 2020] [alias:warn] [pid 28864] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 379 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 29 02:30:05.079707 2020] [core:crit] [pid 28864] (22)Invalid argument: AH00069: make_sock: for address [::]:443, apr_socket_opt_set: (IPV6_V6ONLY)
+(98)Address already in use: AH00072: make_sock: could not bind to address [::]:443
+(98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:443
+[Sun Mar 29 02:30:05.079828 2020] [mpm_prefork:alert] [pid 28864] no listening sockets available, shutting down
+[Sun Mar 29 02:30:05.079856 2020] [:emerg] [pid 28864] AH00019: Unable to open logs, exiting
+[Sun Mar 29 02:30:09.712803 2020] [core:notice] [pid 28878] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Mar 29 02:30:09.715182 2020] [suexec:notice] [pid 28878] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun Mar 29 02:30:09.750675 2020] [alias:warn] [pid 28878] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 379 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 29 02:30:09.751173 2020] [core:crit] [pid 28878] (22)Invalid argument: AH00069: make_sock: for address [::]:443, apr_socket_opt_set: (IPV6_V6ONLY)
+(98)Address already in use: AH00072: make_sock: could not bind to address [::]:443
+(98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:443
+[Sun Mar 29 02:30:09.751268 2020] [mpm_prefork:alert] [pid 28878] no listening sockets available, shutting down
+[Sun Mar 29 02:30:09.751275 2020] [:emerg] [pid 28878] AH00019: Unable to open logs, exiting
+[Sun Mar 29 02:32:29.429081 2020] [core:notice] [pid 28925] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Mar 29 02:32:29.430180 2020] [suexec:notice] [pid 28925] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun Mar 29 02:32:29.462693 2020] [alias:warn] [pid 28925] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 363 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 29 02:32:29.463228 2020] [core:crit] [pid 28925] (22)Invalid argument: AH00069: make_sock: for address [::]:443, apr_socket_opt_set: (IPV6_V6ONLY)
+(98)Address already in use: AH00072: make_sock: could not bind to address [::]:443
+(98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:443
+[Sun Mar 29 02:32:29.463348 2020] [mpm_prefork:alert] [pid 28925] no listening sockets available, shutting down
+[Sun Mar 29 02:32:29.463355 2020] [:emerg] [pid 28925] AH00019: Unable to open logs, exiting
+[Sun Mar 29 02:33:41.710959 2020] [core:notice] [pid 28972] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Mar 29 02:33:41.712382 2020] [suexec:notice] [pid 28972] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun Mar 29 02:33:41.740206 2020] [alias:warn] [pid 28972] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 363 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 29 02:33:41.742055 2020] [lbmethod_heartbeat:notice] [pid 28972] AH02282: No slotmem from mod_heartmonitor
+[Sun Mar 29 02:33:41.752181 2020] [mpm_prefork:notice] [pid 28972] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips configured -- resuming normal operations
+[Sun Mar 29 02:33:41.752229 2020] [core:notice] [pid 28972] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sun Mar 29 02:34:24.518742 2020] [mpm_prefork:notice] [pid 28972] AH00170: caught SIGWINCH, shutting down gracefully
+[Sun Mar 29 02:34:25.770052 2020] [core:notice] [pid 28998] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Mar 29 02:34:25.772283 2020] [suexec:notice] [pid 28998] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun Mar 29 02:34:25.876244 2020] [alias:warn] [pid 28998] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 363 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 29 02:34:25.878383 2020] [lbmethod_heartbeat:notice] [pid 28998] AH02282: No slotmem from mod_heartmonitor
+[Sun Mar 29 02:34:25.993483 2020] [mpm_prefork:notice] [pid 28998] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips configured -- resuming normal operations
+[Sun Mar 29 02:34:25.993568 2020] [core:notice] [pid 28998] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sun Mar 29 02:38:24.532522 2020] [mpm_prefork:notice] [pid 28998] AH00170: caught SIGWINCH, shutting down gracefully
+[Sun Mar 29 02:38:25.663892 2020] [core:notice] [pid 29077] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Mar 29 02:38:25.665467 2020] [suexec:notice] [pid 29077] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun Mar 29 02:38:25.694126 2020] [so:warn] [pid 29077] AH01574: module ssl_module is already loaded, skipping
+[Sun Mar 29 02:38:25.698123 2020] [alias:warn] [pid 29077] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 364 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 29 02:38:25.699846 2020] [lbmethod_heartbeat:notice] [pid 29077] AH02282: No slotmem from mod_heartmonitor
+[Sun Mar 29 02:38:25.711499 2020] [mpm_prefork:notice] [pid 29077] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips configured -- resuming normal operations
+[Sun Mar 29 02:38:25.711548 2020] [core:notice] [pid 29077] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sun Mar 29 02:43:57.648184 2020] [mpm_prefork:notice] [pid 29077] AH00171: Graceful restart requested, doing restart
+[Sun Mar 29 02:43:58.106993 2020] [so:warn] [pid 29077] AH01574: module ssl_module is already loaded, skipping
+[Sun Mar 29 02:43:58.112495 2020] [alias:warn] [pid 29077] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 364 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 29 02:43:58.114696 2020] [lbmethod_heartbeat:notice] [pid 29077] AH02282: No slotmem from mod_heartmonitor
+[Sun Mar 29 02:43:58.142982 2020] [mpm_prefork:notice] [pid 29077] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips configured -- resuming normal operations
+[Sun Mar 29 02:43:58.143003 2020] [core:notice] [pid 29077] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sun Mar 29 02:47:42.872464 2020] [mpm_prefork:notice] [pid 29077] AH00170: caught SIGWINCH, shutting down gracefully
+[Sun Mar 29 02:49:37.607768 2020] [core:notice] [pid 29593] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Mar 29 02:49:37.609897 2020] [suexec:notice] [pid 29593] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun Mar 29 02:49:37.618457 2020] [ssl:warn] [pid 29593] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Sun Mar 29 02:49:37.618808 2020] [ssl:warn] [pid 29593] AH02292: Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Sun Mar 29 02:49:37.669099 2020] [so:warn] [pid 29593] AH01574: module ssl_module is already loaded, skipping
+[Sun Mar 29 02:49:37.676013 2020] [alias:warn] [pid 29593] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 370 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 29 02:49:37.678990 2020] [core:crit] [pid 29593] (22)Invalid argument: AH00069: make_sock: for address [::]:443, apr_socket_opt_set: (IPV6_V6ONLY)
+(98)Address already in use: AH00072: make_sock: could not bind to address [::]:443
+(98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:443
+[Sun Mar 29 02:49:37.679210 2020] [mpm_prefork:alert] [pid 29593] no listening sockets available, shutting down
+[Sun Mar 29 02:49:37.679218 2020] [:emerg] [pid 29593] AH00019: Unable to open logs, exiting
+[Sun Mar 29 02:50:14.843539 2020] [core:notice] [pid 29635] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Mar 29 02:50:14.845542 2020] [suexec:notice] [pid 29635] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun Mar 29 02:50:14.892548 2020] [ssl:warn] [pid 29635] AH02292: Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Sun Mar 29 02:50:14.951268 2020] [so:warn] [pid 29635] AH01574: module ssl_module is already loaded, skipping
+[Sun Mar 29 02:50:14.956595 2020] [alias:warn] [pid 29635] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 370 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 29 02:50:14.957134 2020] [core:crit] [pid 29635] (22)Invalid argument: AH00069: make_sock: for address [::]:443, apr_socket_opt_set: (IPV6_V6ONLY)
+(98)Address already in use: AH00072: make_sock: could not bind to address [::]:443
+(98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:443
+[Sun Mar 29 02:50:14.957230 2020] [mpm_prefork:alert] [pid 29635] no listening sockets available, shutting down
+[Sun Mar 29 02:50:14.957241 2020] [:emerg] [pid 29635] AH00019: Unable to open logs, exiting
+[Sun Mar 29 02:55:57.282933 2020] [core:notice] [pid 29747] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Mar 29 02:55:57.284597 2020] [suexec:notice] [pid 29747] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun Mar 29 02:55:57.292240 2020] [ssl:warn] [pid 29747] AH02292: Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Sun Mar 29 02:55:57.335885 2020] [so:warn] [pid 29747] AH01574: module ssl_module is already loaded, skipping
+[Sun Mar 29 02:55:57.342842 2020] [alias:warn] [pid 29747] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 370 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 29 02:55:57.343382 2020] [core:crit] [pid 29747] (22)Invalid argument: AH00069: make_sock: for address [::]:443, apr_socket_opt_set: (IPV6_V6ONLY)
+(98)Address already in use: AH00072: make_sock: could not bind to address [::]:443
+(98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:443
+[Sun Mar 29 02:55:57.343465 2020] [mpm_prefork:alert] [pid 29747] no listening sockets available, shutting down
+[Sun Mar 29 02:55:57.343472 2020] [:emerg] [pid 29747] AH00019: Unable to open logs, exiting
+[Sun Mar 29 03:10:58.847033 2020] [core:notice] [pid 30061] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Mar 29 03:10:58.848762 2020] [suexec:notice] [pid 30061] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun Mar 29 03:10:59.005613 2020] [so:warn] [pid 30061] AH01574: module ssl_module is already loaded, skipping
+[Sun Mar 29 03:10:59.009952 2020] [alias:warn] [pid 30061] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 363 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 29 03:10:59.012065 2020] [lbmethod_heartbeat:notice] [pid 30061] AH02282: No slotmem from mod_heartmonitor
+[Sun Mar 29 03:10:59.028564 2020] [mpm_prefork:notice] [pid 30061] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips configured -- resuming normal operations
+[Sun Mar 29 03:10:59.028634 2020] [core:notice] [pid 30061] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sun Mar 29 03:49:03.248063 2020] [mpm_prefork:notice] [pid 30061] AH00171: Graceful restart requested, doing restart
+[Sun Mar 29 03:49:03.888825 2020] [so:warn] [pid 30061] AH01574: module ssl_module is already loaded, skipping
+[Sun Mar 29 03:49:03.893894 2020] [alias:warn] [pid 30061] AH00671: The Alias directive in /etc/httpd/conf/httpd.conf at line 363 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 2a0d:5600:8:c000::28d5:5deb. Set the 'ServerName' directive globally to suppress this message

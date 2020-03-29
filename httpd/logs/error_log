@@ -1,0 +1,3 @@
+[Sun Mar 29 03:49:03.896738 2020] [lbmethod_heartbeat:notice] [pid 30061] AH02282: No slotmem from mod_heartmonitor
+[Sun Mar 29 03:49:03.906238 2020] [mpm_prefork:notice] [pid 30061] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips configured -- resuming normal operations
+[Sun Mar 29 03:49:03.906252 2020] [core:notice] [pid 30061] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
