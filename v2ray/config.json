@@ -1,57 +1,29 @@
 {
-  "log":{
-    "loglevel":"debug",
-    "access":"/root/v2ray_access.log",
-    "error":"/root/v2ray_error.log"
-  },
-  "api": {},
-  "dns": {},
-  "stats": {},
-  "routing": {},
-  "policy": {},
-  "reverse": {},
   "inbounds": [
     {
-      "port":443,
+      "port": 10000,
       "listen":"127.0.0.1",
-      "protocol":"shadowsocks",
-      "settings":{
-        "email": "",
-        "method": "aes-256-gcm",
-        "password": "f045c6a45b324cb0b2e545853e7e0790",
-        "level": 0,
-        "ota": false,
-        "network": "tcp,udp"
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "728b0b33-1191-42dd-831c-3db35ece4beb",
+            "alterId": 64
+          }
+        ]
       },
-      "streamSettings": {},
-      "tag": "v2ray_ss_inbounds",
-      "sniffing": {
-        "enabled": false,
-        "destOverride": ["http", "tls"]
-      },
-      "allocate": {
-        "strategy": "always",
-        "refresh": 5,
-        "concurrency": 3
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+        "path": "/ray/"
+        }
       }
     }
   ],
   "outbounds": [
     {
-      "sendThrough": "0.0.0.0",
       "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs",
-        "redirect": "127.0.0.1:443",
-        "userLevel": 0
-      },
-      "tag": "v2ray_ss_outbounds",
-      "streamSettings": {},
-      "proxySettings": {
-        "tag": "another-outbound-tag"
-      },
-      "mux": {}
+      "settings": {}
     }
-  ],
-  "transport": {}
+  ]
 }
