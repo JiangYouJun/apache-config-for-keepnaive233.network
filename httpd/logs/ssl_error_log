@@ -16,3 +16,7 @@
 [Sun Mar 29 03:10:58.863600 2020] [ssl:warn] [pid 30061] AH01909: RSA certificate configured for 2a0d:5600:8:c000::28d5:5deb:443 does NOT include an ID which matches the server name
 [Sun Mar 29 03:10:59.012966 2020] [ssl:warn] [pid 30061] AH01909: RSA certificate configured for 2a0d:5600:8:c000::28d5:5deb:443 does NOT include an ID which matches the server name
 [Sun Mar 29 03:49:03.905861 2020] [ssl:warn] [pid 30061] AH01909: RSA certificate configured for 2a0d:5600:8:c000::28d5:5deb:443 does NOT include an ID which matches the server name
+[Sun Mar 29 05:19:09.805034 2020] [ssl:warn] [pid 32136] AH01909: RSA certificate configured for 2a0d:5600:8:c000::28d5:5deb:443 does NOT include an ID which matches the server name
+[Sun Mar 29 05:19:09.855023 2020] [ssl:warn] [pid 32136] AH01909: RSA certificate configured for 2a0d:5600:8:c000::28d5:5deb:443 does NOT include an ID which matches the server name
+[Sun Mar 29 05:34:21.433213 2020] [ssl:warn] [pid 1225] AH01909: ECC certificate configured for 2a0d:5600:8:c000::28d5:5deb:443 does NOT include an ID which matches the server name
+[Sun Mar 29 05:34:21.558588 2020] [ssl:warn] [pid 1225] AH01909: ECC certificate configured for 2a0d:5600:8:c000::28d5:5deb:443 does NOT include an ID which matches the server name
